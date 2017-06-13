@@ -34,6 +34,12 @@ Each task can be executed by double-clicking the task.
 
 ![Console output](art/console.png)
 
+To have possibility to execute tasks you have to start PowerShell with Admin rights and execute a next command:
+```
+Set-ExecutionPolicy Unrestricted 
+```
+More detiled, see [here](https://technet.microsoft.com/en-us/library/ee176961.aspx)
+
 ### Bindings
 Task bindings make it possible to associate individual tasks
 with Visual Studio events such as _Project Open_ etc.
